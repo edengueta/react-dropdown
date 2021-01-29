@@ -1,0 +1,28 @@
+.DropdownButton {
+  width: 150px;
+  padding: 5px 10px;
+  background-color: rgb(87, 87, 87);
+  color: white;
+  border: none;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    position: relative;
+    top: 10px;
+    margin-left:10px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid white;
+  }
+
+.DropdownButton:hover{
+  background-color: rgb(63, 63, 63);
+}
+.DropdownButton:focus{
+  outline-color: gray;
+}

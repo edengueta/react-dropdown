@@ -1,0 +1,9 @@
+.DropdownItem {
+    list-style: none;
+    padding: 10px ;
+    font-size: 15px;
+}
+
+.DropdownItem:hover {
+    background-color: rgb(245, 245, 245);
+}
